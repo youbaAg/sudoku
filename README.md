@@ -45,7 +45,7 @@ Détection du plus grand contour (le plateau de sudoku) :
 Transformation de perspective :
 
 * On définit les points de perspective pour la transformation de perspective avec la fonction cv2.getPerspectiveTransform
-*On applique la transformation de perspective sur l'image originale avec la fonction cv2.warpPerspective pour obtenir une vue de dessus du plateau de sudoku
+* On applique la transformation de perspective sur l'image originale avec la fonction cv2.warpPerspective pour obtenir une vue de dessus du plateau de sudoku
 * L'image transformée est affichée à l'aide de la fonction cv2_imshow
 
 Découpage de l'image en cases de sudoku :
