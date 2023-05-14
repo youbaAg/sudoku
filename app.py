@@ -4,6 +4,9 @@ import numpy as np
 from tensorflow.keras.models import load_model
 from sudoku_solver import solve
 
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+
 app = Flask(__name__)
 
 @app.route('/solveSudoku', methods=['POST'])
