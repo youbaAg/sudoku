@@ -92,6 +92,3 @@ def solve_sudoku():
             'solution': nombres_resolus
         }
         return jsonify(reponse)
-
-if __name__ == '__main__':
-    app.run()
