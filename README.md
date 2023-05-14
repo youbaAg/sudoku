@@ -12,7 +12,8 @@ Définition des variables :
 * chemin_image : le chemin de l'image à traiter
 * hauteur_image : la hauteur souhaitée pour l'image redimensionnée
 * largeur_image : la largeur souhaitée pour l'image redimensionnée
-* Lecture et redimensionnement de l'image :
+
+Lecture et redimensionnement de l'image :
 
 * La fonction cv2.imread est utilisée pour charger l'image depuis le chemin spécifié
 * La fonction cv2.resize est utilisée pour redimensionner l'image à la hauteur et la largeur souhaitées
