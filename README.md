@@ -1,4 +1,4 @@
-Le code fourni est un script Python qui permet de résoudre automatiquement un sudoku à partir d'une image. Voici une description détaillée de ce que fait chaque partie du code :
+Le notebook fourni est un script Python qui permet de résoudre automatiquement un sudoku à partir d'une image. Voici une description détaillée de ce que fait chaque partie du code :
 
 Importation des bibliothèques nécessaires :
 
