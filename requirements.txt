@@ -1,2 +1,5 @@
 gunicorn
-flask
+Flask
+opencv-python-headless
+numpy
+tensorflow
