@@ -83,3 +83,30 @@ Affichage des chiffres résolus :
 * On crée une copie de l'image des chiffres détectés avec la fonction copy
 * On écrit les chiffres résolus sur l'image à l'aide de la fonction cv2.putText
 * L'image des chiffres résolus est affichée à l'aide de la fonction cv2_imshow
+
+# API de résolution de Sudoku à partir d'une image
+
+## Description
+Cette API permet de résoudre automatiquement un sudoku à partir d'une image en utilisant des techniques de traitement d'image et de reconnaissance de chiffres.
+
+## Bibliothèques utilisées
+Le code utilise les bibliothèques suivantes :
+- flask pour la création de l'API
+- cv2 (OpenCV) pour la manipulation d'images
+- numpy pour la manipulation de tableaux multidimensionnels
+- tensorflow.keras.models.load_model pour charger le modèle de reconnaissance de chiffres
+- sudoku_solver pour la résolution du sudoku
+
+## Installation
+Pour installer les bibliothèques nécessaires, veuillez exécuter la commande suivante :
+"pip install -r requirements.txt"
+
+## Utilisation
+Pour lancer le serveur, veuillez exécuter la commande suivante :
+"python api.py"
+
+Une fois le serveur lancé, vous pouvez envoyer une requête POST à l'adresse "localhost:5000/solveSudoku" avec une image de sudoku en pièce jointe. Vous pouvez utiliser la commande suivante pour envoyer la requête :
+
+curl -X POST -F "image=@1.png" localhost:5000/solveSudoku
+
+Le résultat sera renvoyé sous forme de réponse JSON.
